@@ -134,7 +134,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header__logo {
+.header-logo {
   color: var(--header-logo-color);
   margin-right: 93px;
 }
