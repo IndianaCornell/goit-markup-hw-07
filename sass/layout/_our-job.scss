@@ -1,0 +1,40 @@
+.our-job-section {
+  padding-bottom: 94px;
+}
+
+.our-job-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-heading-color);
+  margin-bottom: 50px;
+}
+
+.our-job {
+  display: flex;
+  gap: 30px;
+}
+
+.our-job__item {
+  position: relative;
+}
+
+.our-job__description {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
