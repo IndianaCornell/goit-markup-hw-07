@@ -20,7 +20,7 @@
   margin-bottom: 9px;
 }
 
-.address__list {
+.address__location {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
@@ -30,10 +30,9 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__location:hover {
-  color: #2196f3;
+  &:hover {
+    color: #2196f3;
+  }
 }
 
 .address__description {
@@ -47,10 +46,9 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__description:hover {
-  color: #2196f3;
+  &:hover {
+    color: #2196f3;
+  }
 }
 
 .address__phone {
@@ -64,8 +62,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__phone:hover {
-  color: #2196f3;
+  &:hover {
+    color: #2196f3;
+  }
 }
